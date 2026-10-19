@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-concreto: #F4F1EC;
+  --color-areia: #E7DFD3;
+  --color-grafite: #22201D;
+  --color-oliva: #5C6650;
+  --color-terracota: #B5654A;
+  --color-terracota-escura: #A5563B;
+}
+
+body {
+  background-color: var(--color-concreto);
+  color: var(--color-grafite);
+}
