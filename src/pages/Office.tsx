@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import LogoMark from '../components/LogoMark'
+import FotoOuLogo from '../components/FotoOuLogo'
 import ChamadaFinal from '../components/ChamadaFinal'
 
 const rotulo =
@@ -45,37 +44,6 @@ const equipe = [
     cargo: 'Coordenador de obras',
   },
 ]
-
-// Mostra a foto se ela existir; senão, o símbolo do Woning.
-function FotoOuLogo({
-  src,
-  alt,
-  className = '',
-}: {
-  src: string
-  alt: string
-  className?: string
-}) {
-  const [semFoto, setSemFoto] = useState(false)
-
-  return (
-    <div className={`overflow-hidden rounded-2xl bg-grafite/10 ${className}`}>
-      {semFoto ? (
-        <div aria-hidden="true" className="grid h-full w-full place-items-center">
-          <LogoMark className="h-12 w-auto text-grafite/25" />
-        </div>
-      ) : (
-        <img
-          src={src}
-          alt={alt}
-          loading="lazy"
-          onError={() => setSemFoto(true)}
-          className="h-full w-full object-cover"
-        />
-      )}
-    </div>
-  )
-}
 
 export default function Office() {
   return (
