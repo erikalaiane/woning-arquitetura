@@ -8,24 +8,37 @@ const desktopLink = ({ isActive }: { isActive: boolean }) =>
     isActive ? 'after:scale-x-100' : 'after:scale-x-0 hover:after:scale-x-100'
   }`
 
+const botaoContato =
+  'rounded-full bg-terracota-escura px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-grafite'
+
 export default function Header() {
   const [open, setOpen] = useState(false)
   const close = () => setOpen(false)
 
   return (
-    <header className="relative border-b-2 border-oliva/20">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
-       <Link to="/" onClick={close} aria-label="Woning arquitetura, página inicial">
-            <Logo />
+    <header className="relative z-20 px-3 sm:px-4">
+      <div className="relative mx-auto flex max-w-6xl items-center justify-between px-8 py-4">
+        <Link
+          to="/"
+          onClick={close}
+          aria-label="Woning arquitetura, página inicial"
+        >
+          <Logo />
         </Link>
 
         <nav aria-label="Principal" className="hidden md:block">
-          <ul className="flex gap-10">
+          <ul className="flex items-center gap-8">
             {navLinks.map((link) => (
               <li key={link.to}>
-                <NavLink to={link.to} className={desktopLink}>
-                  {link.label}
-                </NavLink>
+                {link.to === '/contato' ? (
+                  <Link to={link.to} className={botaoContato}>
+                    {link.label}
+                  </Link>
+                ) : (
+                  <NavLink to={link.to} className={desktopLink}>
+                    {link.label}
+                  </NavLink>
+                )}
               </li>
             ))}
           </ul>
@@ -56,9 +69,9 @@ export default function Header() {
         <nav
           id="menu-mobile"
           aria-label="Principal"
-          className="absolute inset-x-0 top-full z-10 border-b-2 border-oliva/20 bg-concreto md:hidden"
+          className="absolute inset-x-3 top-full overflow-hidden rounded-3xl bg-areia shadow-lg md:hidden"
         >
-          <ul className="mx-auto flex max-w-6xl flex-col px-5">
+          <ul className="flex flex-col px-6">
             {navLinks.map((link) => (
               <li
                 key={link.to}

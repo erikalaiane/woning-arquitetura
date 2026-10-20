@@ -9,8 +9,8 @@ const destaque = [
 
 export default function Hero() {
   return (
-    <section className="px-5 pt-6 md:pt-10">
-      <div className="relative mx-auto flex min-h-[36rem] max-w-6xl flex-col justify-end overflow-hidden rounded-3xl bg-grafite text-concreto md:min-h-[42rem]">
+    <section className="px-3 pb-3 sm:px-4 sm:pb-4">      
+    <div className="relative flex min-h-144 flex-col justify-end overflow-hidden rounded-4xl bg-grafite text-concreto md:min-h-168 md:rounded-[2.5rem]">
         <img
           src={heroImg}
           alt="Casa moderna com grandes janelas cercada por vegetação"
@@ -21,13 +21,11 @@ export default function Hero() {
           aria-hidden="true"
           className="absolute inset-0 bg-linear-to-t from-grafite/95 from-30% via-grafite/65 via-60% to-transparent lg:from-grafite/90 lg:from-0% lg:via-grafite/45 lg:via-50%"
         />
-
-        <div className="relative flex flex-col gap-10 p-6 sm:p-8 lg:flex-row lg:items-end lg:justify-between lg:p-12">
-          <div className="max-w-2xl">
+        <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-10 px-8 pb-10 pt-16 lg:flex-row lg:items-end lg:justify-between lg:pb-12">          <div className="max-w-2xl">
             <p className="inline-block rounded-full border border-concreto/30 bg-grafite/35 px-4 py-2 font-display text-xs uppercase tracking-[0.3em] text-concreto backdrop-blur-sm">
               Escritório de arquitetura
             </p>
-            <h1 className="mt-4 font-display text-4xl font-normal leading-[1.1] tracking-tight [text-shadow:0_2px_24px_rgba(0,0,0,0.45)] lg:text-5xl">
+            <h1 className="mt-5 font-display text-4xl font-normal leading-[1.1] tracking-tight [text-shadow:0_2px_24px_rgba(0,0,0,0.45)] lg:text-5xl">
               Espaços pensados para a vida que acontece dentro deles.
             </h1>
             <p className="mt-5 hidden max-w-lg text-base text-concreto/90 sm:block lg:text-lg">
@@ -67,7 +65,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="hidden rounded-2xl border border-concreto/25 bg-concreto/10 p-5 backdrop-blur-md lg:block lg:w-[26rem]">
+          <div className="hidden rounded-2xl border border-concreto/25 bg-concreto/10 p-5 backdrop-blur-md lg:block lg:w-104">
             <p className="font-display text-xs uppercase tracking-[0.25em] text-areia">
               Projeto em destaque
             </p>

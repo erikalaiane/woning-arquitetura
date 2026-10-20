@@ -8,8 +8,8 @@ const titulo =
 
 export default function Footer() {
   return (
-    <footer className="bg-grafite text-concreto">
-      <div className="mx-auto grid max-w-6xl gap-12 px-5 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
+    <footer className="mx-3 mb-3 rounded-4xl bg-grafite text-concreto sm:mx-4 sm:mb-4 md:rounded-[2.5rem]">
+  <div className="mx-auto grid max-w-6xl gap-12 px-8 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <Link
             to="/"
@@ -47,8 +47,8 @@ export default function Footer() {
       </div>
 
       <div className="border-t-2 border-concreto/10">
-        <p className="mx-auto max-w-6xl px-5 py-6 text-xs text-concreto/60">
-          © {new Date().getFullYear()} {site.name}. Projeto conceito criado por
+       <p className="mx-auto max-w-6xl px-8 py-6 text-xs text-concreto/60">          
+       © {new Date().getFullYear()} {site.name}. Projeto conceito criado por
           Erika Laiane para portfólio. Nomes, endereço e contatos são fictícios.
         </p>
       </div>

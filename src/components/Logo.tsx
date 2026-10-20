@@ -2,15 +2,15 @@ import LogoMark from './LogoMark'
 
 export default function Logo({ className = '' }: { className?: string }) {
   return (
-    <span className={`flex items-center gap-3.5 ${className}`}>
-      <LogoMark className="h-10 w-auto" />
+    <span className={`flex items-center gap-3 ${className}`}>
+      <LogoMark className="h-9 w-auto" />
       <span className="flex flex-col leading-none">
-        <span className="-mr-[0.3em] font-display text-xl font-normal uppercase tracking-[0.3em] md:text-2xl">
+        <span className="mr-[-0.3em] font-display text-lg font-normal uppercase tracking-[0.3em] md:text-xl">
           Woning
         </span>
         <span
           aria-hidden="true"
-          className="mt-1 flex justify-between font-display text-xs font-medium"
+          className="mt-1 flex justify-between font-display text-[0.65rem] font-medium"
         >
           {'arquitetura'.split('').map((letra, i) => (
             <span key={i}>{letra}</span>
