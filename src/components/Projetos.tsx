@@ -6,7 +6,7 @@ export default function Projetos() {
   return (
     <section className="px-3 pb-3 sm:px-4 sm:pb-4">
       <div className="rounded-4xl bg-areia md:rounded-[2.5rem]">
-        <div className="mx-auto max-w-6xl px-8 py-16 lg:py-24">
+        <div className="mx-auto max-w-6xl px-8 py-8 lg:py-12">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="font-display text-xs uppercase tracking-[0.3em] text-terracota-escura">

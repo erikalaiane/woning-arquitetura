@@ -4,7 +4,7 @@ export default function ChamadaFinal() {
   return (
     <section className="px-3 pb-3 sm:px-4 sm:pb-4">
       <div className="rounded-4xl bg-oliva text-concreto md:rounded-[2.5rem]">
-        <div className="mx-auto flex max-w-6xl flex-col gap-10 px-8 py-16 lg:flex-row lg:items-center lg:justify-between lg:py-24">
+        <div className="mx-auto flex max-w-6xl flex-col gap-10 px-8 py-8 lg:flex-row lg:items-center lg:justify-between lg:py-12">
           <div className="max-w-xl">
             <p className="font-display text-xs uppercase tracking-[0.3em] text-areia">
               Contato

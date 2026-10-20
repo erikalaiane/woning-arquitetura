@@ -4,7 +4,7 @@ import { etapas } from '../data/etapas'
 export default function ComoTrabalhamos() {
   return (
     <section className="px-3 sm:px-4">
-      <div className="mx-auto max-w-6xl px-8 py-20 lg:py-28">
+      <div className="mx-auto max-w-6xl px-8 py-10 lg:py-14">
         <p className="font-display text-xs uppercase tracking-[0.3em] text-terracota-escura">
           Como trabalhamos
         </p>

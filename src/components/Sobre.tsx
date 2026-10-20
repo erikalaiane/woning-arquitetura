@@ -10,8 +10,8 @@ const numeros = [
 export default function Sobre() {
   return (
     <section className="px-3 sm:px-4">
-      <div className="mx-auto grid max-w-6xl gap-10 px-8 py-10 lg:grid-cols-2 lg:gap-16 lg:py-16">
-        <div>
+        <div className="mx-auto grid max-w-6xl gap-12 px-8 py-10 lg:grid-cols-2 lg:gap-16 lg:py-14">
+            <div>
           <p className="font-display text-xs font-medium uppercase tracking-[0.3em] text-terracota-escura">
             Sobre o escritório
           </p>
