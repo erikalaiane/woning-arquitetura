@@ -10,8 +10,8 @@ const destaque = [
 export default function Hero() {
   return (
     <section className="px-3 pb-3 sm:px-4 sm:pb-4">      
-    <div className="relative flex min-h-144 flex-col justify-end overflow-hidden rounded-4xl bg-grafite text-concreto md:min-h-168 md:rounded-[2.5rem]">
-        <img
+    <div className="relative flex min-h-144 flex-col justify-end overflow-hidden rounded-4xl bg-grafite text-concreto md:min-h-[min(42rem,calc(100svh-6rem))] md:rounded-[2.5rem]">
+            <img
           src={heroImg}
           alt="Casa moderna com grandes janelas cercada por vegetação"
           fetchPriority="high"
