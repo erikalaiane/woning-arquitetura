@@ -12,7 +12,7 @@ export default function Sobre() {
     <section className="px-3 sm:px-4">
         <div className="mx-auto grid max-w-6xl gap-12 px-8 py-10 lg:grid-cols-2 lg:gap-16 lg:py-14">
             <div>
-          <p className="font-display text-xs font-medium uppercase tracking-[0.3em] text-terracota-escura">
+          <p className="font-display text-sm font-medium font-medium uppercase tracking-[0.3em] text-terracota-escura">
             Sobre o escritório
           </p>
           <h2 className="mt-4 font-display text-3xl font-normal leading-tight tracking-tight lg:text-4xl">

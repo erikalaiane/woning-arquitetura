@@ -24,7 +24,7 @@ export default function Depoimentos() {
     <section className="px-3 pb-3 sm:px-4 sm:pb-4">
       <div className="rounded-4xl bg-areia md:rounded-[2.5rem]">
         <div className="mx-auto max-w-6xl px-8 py-8 lg:py-12">
-          <p className="font-display text-xs uppercase tracking-[0.3em] text-terracota-escura">
+          <p className="font-display text-sm font-medium uppercase tracking-[0.3em] text-terracota-escura">
             Depoimentos
           </p>
         <h2 className="mt-4 max-w-2xl text-balance font-display text-3xl font-normal leading-tight tracking-tight lg:text-4xl">

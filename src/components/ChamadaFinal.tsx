@@ -6,7 +6,7 @@ export default function ChamadaFinal() {
       <div className="rounded-4xl bg-oliva text-concreto md:rounded-[2.5rem]">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 px-8 py-8 lg:flex-row lg:items-center lg:justify-between lg:py-12">
           <div className="max-w-xl">
-            <p className="font-display text-xs uppercase tracking-[0.3em] text-areia">
+            <p className="font-display text-sm font-medium uppercase tracking-[0.3em] text-areia">
               Contato
             </p>
             <h2 className="mt-4 font-display text-3xl font-normal leading-tight tracking-tight lg:text-4xl">

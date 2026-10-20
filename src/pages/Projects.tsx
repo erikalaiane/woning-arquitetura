@@ -14,10 +14,10 @@ export default function Projects() {
   return (
     <section className="px-3 sm:px-4">
       <div className="mx-auto max-w-6xl px-8 pb-20 pt-12 lg:pb-28 lg:pt-16">
-        <p className="font-display text-xs uppercase tracking-[0.3em] text-terracota-escura">
+        <p className="font-display text-sm font-medium uppercase tracking-[0.3em] text-terracota-escura">
           Projetos
         </p>
-        <h1 className="mt-4 max-w-2xl font-display text-4xl font-normal leading-tight tracking-tight lg:text-5xl">
+        <h1 className="mt-4 max-w-3xl font-display text-4xl font-normal leading-tight tracking-tight lg:text-5xl">
           Residências e espaços comerciais pensados em cada detalhe.
         </h1>
 

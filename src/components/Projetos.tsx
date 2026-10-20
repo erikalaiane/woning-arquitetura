@@ -9,7 +9,7 @@ export default function Projetos() {
         <div className="mx-auto max-w-6xl px-8 py-8 lg:py-12">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="font-display text-xs uppercase tracking-[0.3em] text-terracota-escura">
+              <p className="font-display text-sm font-medium uppercase tracking-[0.3em] text-terracota-escura">
                 Projetos
               </p>
               <h2 className="mt-4 font-display text-3xl font-normal leading-tight tracking-tight lg:text-4xl">

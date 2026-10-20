@@ -5,7 +5,7 @@ export default function ComoTrabalhamos() {
   return (
     <section className="px-3 sm:px-4">
       <div className="mx-auto max-w-6xl px-8 py-10 lg:py-14">
-        <p className="font-display text-xs uppercase tracking-[0.3em] text-terracota-escura">
+        <p className="font-display text-sm font-medium uppercase tracking-[0.3em] text-terracota-escura">
           Como trabalhamos
         </p>
         <h2 className="mt-4 max-w-xl font-display text-3xl font-normal leading-tight tracking-tight lg:text-4xl">

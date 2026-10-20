@@ -34,13 +34,13 @@ export default function Process() {
     <>
       <section className="px-3 sm:px-4">
         <div className="mx-auto max-w-6xl px-8 pb-20 pt-12 lg:pb-28 lg:pt-16">
-          <p className="font-display text-xs uppercase tracking-[0.3em] text-terracota-escura">
+          <p className="font-display text-sm font-medium uppercase tracking-[0.3em] text-terracota-escura">
             Processo
           </p>
-          <h1 className="mt-4 max-w-2xl font-display text-4xl font-normal leading-tight tracking-tight lg:text-5xl">
+          <h1 className="mt-4 max-w-6xl font-display text-4xl font-normal leading-tight tracking-tight lg:text-5xl">
             Cada etapa explicada, do primeiro encontro à entrega.
           </h1>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-grafite/80">
+          <p className="mt-6 max-w-5xl text-base leading-relaxed text-grafite/80">
             Um projeto fica mais tranquilo quando você sabe o que vem a seguir.
             Veja como trabalhamos e o que você recebe em cada fase.
           </p>
