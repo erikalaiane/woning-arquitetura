@@ -1,11 +1,22 @@
+import { Route, Routes } from 'react-router'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import ProjectDetail from './pages/ProjectDetail'
+import Process from './pages/Process'
+import Office from './pages/Office'
+import Contact from './pages/Contact'
+import NotFound from './pages/NotFound'
+
 export default function App() {
   return (
-    <main className="min-h-screen p-8">
-      <h1 className="text-4xl font-light font-display uppercase tracking-[0.3em]">Woning</h1>
-      <p className="mt-2 tracking-[0.35em] text-oliva">arquitetura</p>
-      <button className="mt-8 rounded-full bg-terracota-escura px-6 py-3 font-medium text-white">
-        Conversar sobre o projeto
-      </button>
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projetos" element={<Projects />} />
+      <Route path="/projetos/:slug" element={<ProjectDetail />} />
+      <Route path="/processo" element={<Process />} />
+      <Route path="/escritorio" element={<Office />} />
+      <Route path="/contato" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   )
 }
