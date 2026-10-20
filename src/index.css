@@ -7,9 +7,13 @@
   --color-oliva: #5C6650;
   --color-terracota: #B5654A;
   --color-terracota-escura: #A5563B;
+  --font-display: "Jost", system-ui, sans-serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
 }
 
 body {
   background-color: var(--color-concreto);
   color: var(--color-grafite);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
