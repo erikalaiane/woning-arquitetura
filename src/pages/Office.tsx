@@ -83,15 +83,15 @@ export default function Office() {
       <section className="px-3 sm:px-4">
         <div className="mx-auto max-w-6xl px-8 pb-12 pt-10 lg:pb-16 lg:pt-12">
           <p className={rotulo}>Escritório</p>
-          <h1 className="mt-4 max-w-2xl text-balance font-display text-4xl font-normal leading-tight tracking-tight lg:text-5xl">
+          <h1 className="mt-4 max-w-6xl text-balance font-display text-4xl font-normal leading-tight tracking-tight lg:text-5xl">
             Um escritório pequeno, com atenção em cada projeto.
           </h1>
 
-          <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-16">
+          <div className="mt-12 grid gap-10 lg:grid-cols-[1.15fr_1.1fr] lg:items-center lg:gap-16">
             <FotoOuLogo
               src="/escritorio/sede.webp"
               alt="Equipe do Woning reunida em volta da mesa de projetos"
-              className="aspect-4/3"
+              className="aspect-square"
             />
 
             <div>
