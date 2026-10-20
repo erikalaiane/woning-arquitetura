@@ -6,10 +6,12 @@ import Process from './pages/Process'
 import Office from './pages/Office'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
+import Layout from './components/Layout'
 
 export default function App() {
   return (
     <Routes>
+      <Route element={<Layout />}>
       <Route path="/" element={<Home />} />
       <Route path="/projetos" element={<Projects />} />
       <Route path="/projetos/:slug" element={<ProjectDetail />} />
@@ -17,6 +19,7 @@ export default function App() {
       <Route path="/escritorio" element={<Office />} />
       <Route path="/contato" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
-    </Routes>
+    </Route>
+  </Routes>
   )
 }
