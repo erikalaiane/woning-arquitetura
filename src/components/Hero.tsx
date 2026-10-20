@@ -38,10 +38,26 @@ export default function Hero() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
                 to="/projetos"
-                className="rounded-full bg-terracota-escura px-7 py-4 text-center font-medium text-white hover:bg-grafite"
-              >
+                className="group inline-flex items-center justify-center gap-4 rounded-full bg-terracota-escura py-2 pl-7 pr-2 font-medium text-white hover:bg-grafite"
+                >
                 Ver projetos
-              </Link>
+                <span
+                    aria-hidden="true"
+                    className="grid h-10 w-10 place-items-center rounded-full bg-white/20 transition-transform group-hover:translate-x-0.5"
+                >
+                    <svg
+                    viewBox="0 0 24 24"
+                    className="h-4 w-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    >
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                    </svg>
+                </span>
+            </Link>
               <Link
                 to="/contato"
                 className="rounded-full border-2 border-concreto/70 px-7 py-4 text-center font-medium hover:bg-concreto/10"
