@@ -11,8 +11,11 @@ export default function NotFound() {
           Não encontramos essa página.
         </h1>
         <p className="mt-6 max-w-xl text-base leading-relaxed text-grafite/80">
-          O endereço pode ter mudado ou nunca ter existido. Que tal voltar ao
-          início ou olhar os nossos projetos?
+          O endereço pode ter mudado ou nunca ter existido. 
+        </p>
+
+        <p className="mt-0 max-w-xl text-base leading-relaxed text-grafite/80">
+           Que tal voltar a nossa página inicial ou olhar os nossos projetos? 
         </p>
 
         <div className="mt-10 flex flex-col gap-3 sm:flex-row">
