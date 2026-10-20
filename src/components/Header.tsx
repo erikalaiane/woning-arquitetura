@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router'
 import { navLinks } from '../data/navigation'
-import LogoMark from './LogoMark'
+import Logo from './Logo'
 
 const desktopLink = ({ isActive }: { isActive: boolean }) =>
   `relative pb-1.5 text-sm font-medium tracking-wide after:absolute after:inset-x-0 after:-bottom-px after:h-0.5 after:origin-left after:bg-terracota after:transition-transform ${
@@ -15,26 +15,8 @@ export default function Header() {
   return (
     <header className="relative border-b-2 border-oliva/20">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
-        <Link
-            to="/"
-            onClick={close}
-            aria-label="Woning arquitetura, página inicial"
-            className="flex items-center gap-3.5"
-            >
-            <LogoMark className="h-10 w-auto text-grafite" />
-            <span className="flex flex-col leading-none">
-                <span className="mr-[-0.3em] font-display text-xl font-normal uppercase tracking-[0.3em] md:text-2xl">
-                Woning
-                </span>
-                <span
-                aria-hidden="true"
-                className="mt-1 flex justify-between font-display text-xs font-medium"
-                >
-                {'arquitetura'.split('').map((letra, i) => (
-                    <span key={i}>{letra}</span>
-                ))}
-                </span>
-            </span>
+       <Link to="/" onClick={close} aria-label="Woning arquitetura, página inicial">
+            <Logo />
         </Link>
 
         <nav aria-label="Principal" className="hidden md:block">
