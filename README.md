@@ -79,10 +79,10 @@ npm run build
 
 Gostou do projeto? Vamos conversar!
 
-<a href="https://linkedin.com/in/seu-perfil">
+<a href="www.linkedin.com/in/erika-laiane-azevedo">
   <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge" alt="LinkedIn" />
 </a>
-<a href="mailto:seu-email@gmail.com">
+<a href="mailto:erikalaianeazevedo03@gmail.com">
   <img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 
