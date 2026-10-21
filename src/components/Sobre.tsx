@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 const numeros = [
   { valor: '12', rotulo: 'anos de atuação' },
   { valor: '80+', rotulo: 'projetos entregues' },
-  { valor: '15 mil m²', rotulo: 'de área construída' },
+  { valor: '20 mil m²', rotulo: 'de área construída' },
   { valor: '95%', rotulo: 'de clientes que nos indicam' },
 ]
 
@@ -12,7 +12,7 @@ export default function Sobre() {
     <section className="px-3 sm:px-4">
         <div className="mx-auto grid max-w-6xl gap-12 px-8 py-10 lg:grid-cols-2 lg:gap-16 lg:py-14">
             <div>
-          <p className="font-display text-sm font-medium font-medium uppercase tracking-[0.3em] text-terracota-escura">
+          <p className="font-display text-sm font-medium uppercase tracking-[0.3em] text-terracota-escura">
             Sobre o escritório
           </p>
           <h2 className="mt-4 font-display text-3xl font-normal leading-tight tracking-tight lg:text-4xl">
