@@ -1,11 +1,17 @@
 import { useState } from 'react'
 import { projetos } from '../data/projetos'
 import ProjetoCard from '../components/ProjetoCard'
+import usePageTitle from '../hooks/usePageTitle'
 
 const filtros = ['Todos', 'Residencial', 'Comercial'] as const
 type Filtro = (typeof filtros)[number]
 
 export default function Projects() {
+  usePageTitle(
+    'Conheça os projetos residenciais e comerciais do Woning Arquitetura.',
+    'Projetos',
+  )
+
   const [filtro, setFiltro] = useState<Filtro>('Todos')
 
   const lista =

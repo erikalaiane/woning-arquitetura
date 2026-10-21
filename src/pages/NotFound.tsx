@@ -1,6 +1,8 @@
 import { Link } from 'react-router'
+import usePageTitle from '../hooks/usePageTitle'
 
 export default function NotFound() {
+  usePageTitle('A página que você procurou não existe.', 'Página não encontrada')
   return (
     <section className="px-3 sm:px-4">
       <div className="mx-auto max-w-6xl px-8 py-16 lg:py-24">

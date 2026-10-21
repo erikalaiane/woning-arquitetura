@@ -1,5 +1,6 @@
 import { etapas } from '../data/etapas'
 import ChamadaFinal from '../components/ChamadaFinal'
+import usePageTitle from '../hooks/usePageTitle'
 
 const perguntas = [
   {
@@ -29,7 +30,13 @@ const perguntas = [
   },
 ]
 
+
 export default function Process() {
+  usePageTitle(
+    'Conheça o processo de trabalho do Woning Arquitetura.',
+    'Processo',
+  )
+  
   return (
     <>
       <section className="px-3 sm:px-4">

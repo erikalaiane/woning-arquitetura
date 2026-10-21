@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { FormEvent } from 'react'
 import { site } from '../data/site'
+import usePageTitle from '../hooks/usePageTitle'
 
 const campo =
   'mt-2 w-full rounded-xl border-2 border-grafite/15 bg-concreto px-4 py-3 text-base text-grafite placeholder:text-grafite/40 focus:border-terracota-escura focus:outline-none focus:ring-4 focus:ring-terracota/20'
@@ -18,6 +19,10 @@ const tituloItem =
 //   className="h-full w-full border-0"
 // />
 function Mapa() {
+  usePageTitle(
+  'Fale com o Woning Arquitetura e conte o que você tem em mente.',
+  'Contato',
+)
   return (
     <div
       role="img"

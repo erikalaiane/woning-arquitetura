@@ -1,5 +1,6 @@
 import FotoOuLogo from '../components/FotoOuLogo'
 import ChamadaFinal from '../components/ChamadaFinal'
+import usePageTitle from '../hooks/usePageTitle'
 
 const rotulo =
   'font-display text-sm font-medium uppercase tracking-[0.25em] text-terracota-escura'
@@ -45,7 +46,13 @@ const equipe = [
   },
 ]
 
+
 export default function Office() {
+  usePageTitle(
+  'Conheça a história, os valores e a equipe do Woning Arquitetura.',
+  'Escritório',
+)
+
   return (
     <>
       <section className="px-3 sm:px-4">
