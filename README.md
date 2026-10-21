@@ -1,14 +1,41 @@
-# Woning Arquitetura
+<div align="center">
 
-Site institucional de um escritório de arquitetura..
+# 🏛️ Woning Arquitetura
 
-**[Ver o site publicado](https://woning-arquitetura.vercel.app/)**
+Site institucional de um escritório de arquitetura fictício, criado como projeto de portfólio.
 
-![Prévia do site Woning Arquitetura](docs/preview.png)
+<a href="https://woning-arquitetura.vercel.app/">
+  <img src="https://img.shields.io/badge/VER_O_SITE-B5654A?style=for-the-badge&logo=vercel&logoColor=white" alt="Ver o site publicado" />
+</a>
+
+<br /><br />
+
+<img src="docs/preview.png" alt="Prévia do site Woning Arquitetura" width="100%" />
+
+<br />
 
 > Projeto conceito: nomes, endereço, contatos, depoimentos e projetos são fictícios.
 
-## Páginas
+</div>
+
+---
+
+## 🚀 Stack
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+<img src="https://img.shields.io/badge/TAILWIND_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/REACT_ROUTER-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router" />
+<img src="https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+
+</div>
+
+---
+
+## 📄 Páginas
 
 - **Home**: apresentação, números do escritório, projetos em destaque, processo, depoimentos e chamada para contato
 - **Projetos**: galeria com filtro por tipo (residencial e comercial)
@@ -18,16 +45,9 @@ Site institucional de um escritório de arquitetura..
 - **Contato**: formulário e localização
 - **404**: página para endereços que não existem
 
-## Tecnologias
+---
 
-- React com TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- Fontes Jost e DM Sans (Google Fonts)
-- Publicado na Vercel
-
-## Decisões de design
+## 🎨 Decisões de design
 
 - Paleta inspirada em materiais de obra: concreto, areia, grafite, oliva e terracota
 - Seções que alternam os fundos claros, sem misturar os dois tons
@@ -36,7 +56,9 @@ Site institucional de um escritório de arquitetura..
 - Imagens com substituto (o símbolo do escritório) quando a foto não existe
 - Rótulos nos campos do formulário, textos alternativos nas imagens e menu acessível pelo teclado
 
-## Como rodar
+---
+
+## 💻 Como rodar
 
 ```bash
 npm install
@@ -49,6 +71,19 @@ Para gerar a versão de produção:
 npm run build
 ```
 
-## Autora
+---
 
-Projeto criado por Érika Laiane. [GitHub](https://github.com/seu-usuario) · [LinkedIn](https://linkedin.com/in/seu-perfil)
+## 📬 Contato
+
+<div align="center">
+
+Gostou do projeto? Vamos conversar!
+
+<a href="https://linkedin.com/in/seu-perfil">
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge" alt="LinkedIn" />
+</a>
+<a href="mailto:seu-email@gmail.com">
+  <img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+</a>
+
+</div>
