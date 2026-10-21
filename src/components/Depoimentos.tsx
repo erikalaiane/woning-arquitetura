@@ -1,21 +1,51 @@
+import { useState } from 'react'
+
+function Avatar({ nome, src }: { nome: string; src: string }) {
+  const [semFoto, setSemFoto] = useState(false)
+  const iniciais = nome
+    .split(' ')
+    .map((parte) => parte[0])
+    .slice(0, 2)
+    .join('')
+
+  return (
+    <span className="grid h-12 w-12 shrink-0 place-items-center overflow-hidden rounded-full bg-oliva font-display text-sm font-medium text-concreto">
+      {semFoto ? (
+        <span aria-hidden="true">{iniciais}</span>
+      ) : (
+        <img
+          src={src}
+          alt=""
+          loading="lazy"
+          onError={() => setSemFoto(true)}
+          className="h-full w-full object-cover"
+        />
+      )}
+    </span>
+  )
+}
+
 const depoimentos = [
   {
     texto:
       'Eles entenderam como a nossa família vive antes de desenhar a primeira linha. A casa ficou do jeito que a gente nem sabia explicar que queria.',
     nome: 'Marina Duarte',
     projeto: 'Casa Pátio',
+    foto: '/clientes/marina-duarte.webp',
   },
   {
     texto:
       'O escritório ficou mais claro e mais organizado, e a equipe notou a diferença logo na primeira semana. A obra terminou no prazo combinado.',
     nome: 'Rafael Quintanilha',
     projeto: 'Escritório Vão Livre',
+    foto: '/clientes/marina-duarte.webp',
   },
   {
     texto:
       'Do orçamento à entrega, tudo foi explicado com clareza. Já indicamos o Woning para três amigos.',
     nome: 'Helena Prado',
     projeto: 'Café Concreto',
+    foto: '/clientes/marina-duarte.webp',
   },
 ]
 
@@ -40,10 +70,13 @@ export default function Depoimentos() {
                 <blockquote className="text-base leading-relaxed text-grafite/85">
                   “{item.texto}”
                 </blockquote>
-                <figcaption className="mt-8 border-t-2 border-oliva/20 pt-4">
+                <figcaption className="mt-8 flex items-center gap-4 border-t-2 border-oliva/20 pt-4">
+                <Avatar nome={item.nome} src={item.foto} />
+                <div>
                   <p className="font-display text-lg">{item.nome}</p>
                   <p className="text-sm text-grafite/70">{item.projeto}</p>
-                </figcaption>
+                </div>
+              </figcaption>
               </figure>
             ))}
           </div>

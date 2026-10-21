@@ -138,7 +138,12 @@ export default function Office() {
         </div>
       </section>
 
-      <ChamadaFinal />
+      <ChamadaFinal
+        imagem={{
+          src: '/projetos/casa-patio/capa.webp',
+          alt: 'Fachada da Casa Pátio ao entardecer, com varandas e pedra aparente',
+        }}
+      />
     </>
   )
 }
